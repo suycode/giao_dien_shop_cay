@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 200px;
+    background-image: linear-gradient(to right, #4E7C32, rgb(165, 162, 162) );
+    padding: 42px 180px 25px 180px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+header > div:nth-child(1){
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu{
+    a{
+        height: 45px;
+        width: 45px;
+        position: absolute;
+        img{
+            height: 35px;
+            width: 35px;
+            margin: 5px 5px;
+        }
+    }
+}
+
+.acc{
+    color: white;
+    font-size: 15.85px;
+    line-height: 27.2px;
+    font-family: 'Poppins';
+    img{
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        top: 48px
+    }
+}
+
+header > div > input{
+    width: 525px;
+    height: 45px;
+    border-radius: 3px;
+    border: 0;
+    font-size: 12.89px;
+    padding: 12px 201px 11.96px 31px;
+    font-family: 'Poppins';
+    font-weight: lighter;
+}
+
+header > div > input:focus-visible{
+    outline: 0;
+}
+
+nav{
+    padding-top: 20px;
+    font-size: 13.64px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+/* nav > ul {
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+}
+
+nav > ul > li{
+    list-style: none;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
+} */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    a{
+        color: white;
+        padding-right: 24px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(238, 230, 230);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: rgb(197, 228, 199)}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.box1{
+    height: 150px;
+    background-image: linear-gradient(to right, rgb(197, 228, 199), rgb(238, 230, 230));
+    padding: 15px 32px;
+    a{
+        float: left;
+        margin: 0 6px;
+        text-decoration: none;
+        margin-left: 110px;
+        margin-top: 10px;
+        h1{
+            margin-top: 30px;
+        }
+    }
+}
+
+.box{
+    height: 150px;
+    background-color: white;
+    margin: 0px 100px;
+    margin-bottom: 100px;
+}
+
+.box2{
+    height: 60px;
+    width: 200px;
+    float: left;
+    background-color: rgb(197, 228, 199);
+    border-radius: 5px;
+    margin: 50px 62px;
+    a{
+        text-decoration: none;
+        float: left;
+        text-align: center;
+        background-color: white;
+        margin: 10px 10px;
+        img{
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+.ten{
+    padding-left: 80px;
+    padding-top: 20px;
+    b{
+        color: black;
+        font-weight: bold;
+        
+    }
+}
+
+.box3{
+    width: 1100px;
+    height: 1100px;
+    padding-top: 50px;
+    a{
+        width: 220px;
+        float: left;
+        margin: 40px 10px;
+        text-decoration: none;
+        margin-left: 110px;
+        img{
+            width: 200px;
+            height: 200px;
+            border-radius: 15px;
+        }
+        b{
+            font-size: 1.2vw;
+            color: black;
+        }
+    }
+}
+
+.col{
+    position: absolute;
+    top: 530px;
+    label{
+        font-size: 1.5vw;
+    }
+    select{
+        border-radius: 5px;
+        height: 50px;
+        width: 200px;
+        font-size: 1.2vw;
+        option{
+            font-size: 1.2vw;
+        }
+    }
+}
+
+.price{
+    font-size: 15px;
+    position: relative;
+    top: 10px;
+}
+
+.price > del{
+    color: gray;
+    margin-left: 10px;
+}
+
+.boxright{
+    width: 200px;
+    margin-left: 1200px;
+    margin-top: 30px;
+    h1{
+        margin-bottom: 30px;
+    }
+    input{
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+    label{
+        margin-left: 10px;
+    }
+}
+
+.boxright1{
+    margin-left: 1150px;
+    margin-top: 70px;
+    img{
+        height: 250px;
+        margin: 20px 30px;
+        border-radius: 15px;
+    }
+}
+
+.filter{
+    width: 200px;
+    margin-left: 1180px;
+    margin-top: 70px;
+    input{
+        width: 200px;
+    }
+}
+
+.khung2{
+    width: 200px;
+    height: 251px;
+    background-color: black;
+    position: absolute; 
+    opacity: 0.4;
+    top: 973px; 
+    left: 1180px;
+    border-radius: 15px;
+    padding: 20px 30px;
+    p{
+        margin-top: 150px;
+    }
+}
+
+.box4{
+    height: 400px;
+    background-image: linear-gradient(to top left, rgb(197, 228, 199), white);
+    padding: 15px 32px;
+    a{
+        width: 280px;
+        float: left;
+        margin: 0 6px;
+        text-decoration: none;
+        margin-top: 40px;
+        ul{
+            color: black;
+            font-size: 1.2vw;
+        }
+        input{
+            text-align:center;
+            font-size: 1.2vw;
+        }
+        p{
+            margin: 15px 20px;
+        }
+    }
+}
+
+.mail{
+    background-color: gray;
+    position: absolute;
+    left: 730px;
+    top: 1913px;
+    img{
+        width: 30px;
+        height: 30px;
+        margin: 5px 5px;
+    }
+}
+
+.box5{
+    height: 280px;
+    background-color: rgb(2, 60, 41);
+    padding: 15px 32px;
+    a{
+        width: 220px;
+        float: left;
+        margin: 0 6px;
+        text-decoration: none;
+        margin-left: 110px;
+        margin-top: 10px;
+        p{
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.2vw;
+        }
+        ul{
+            color: white;
+            font-size: 0.8vw;
+        }
+    }
+}
+
+.price{
+    p{
+        font-size: 1vw;
+        margin-top: 10px;
+        color: black;
+        del{
+            margin-left: 10px;
+        }
+    }
+}
+
+.box7{
+    height: 50px;
+    background-color: rgb(1, 46, 32);
+    padding-left: 0px;
+    padding-top: 10px;
+    a{
+        width: 220px;
+        float: left;
+        margin: 0 6px;
+        text-decoration: none;
+        
+        p{
+            color: white;
+            font-size: 0.8vw;
+        }
+    }
+}
+
+.box8{
+    height: 150px;
+    padding-top: 40px;
+    a{
+        width: 500px;
+        float: left;
+        margin: 0 6px;
+        text-decoration: none;
+        margin-left: 110px;
+        margin-top: 10px;
+        padding-left: 200px;
+    }
+}

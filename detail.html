@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>SẢN PHẨM CHI TIẾT</title>
+    <link rel="stylesheet" href="detail.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="menu">
+                <a href="" style="background-color: gray;">
+                    <img src="./img/icon6.png" alt="">
+                </a>
+                
+                <input type="text" placeholder="Suchen Sie nach Produkten, Marken und mehr">
+                <div class="lang">
+                    <span style="font-size: 16.56px; font-family: 'Poppins'; line-height: 28.4px; font-weight: 500; color: white;">En</span>
+                </div>
+                <div class="acc">
+                    <img src="./img/icon1.png" alt="" style="left: 1110px">
+                    <span style="margin-right: 50px;">Account</span>
+                    <img src="./img/icon2.png" alt="" style="left: 1230px">
+                    <span>Cart</span>
+                </div>
+            </div>
+            <hr>
+            <nav >
+                <ul>
+                    <div class="dropdown" >
+                        <a href="home.html">Beleuchtung</a>
+                        <div class="dropdown-content">
+                            <a href="#">Eckige Töpfe</a>
+                            <a href="#">Runde Töpfe</a>
+                            <a href="#">Untersetzer</a>
+                        </div>
+                    </div>
+
+                     <div class="dropdown">
+                        <a href="">Growbox</a>
+                        <div class="dropdown-content">
+                            <a href="#">Eckige Töpfe</a>
+                            <a href="#">Runde Töpfe</a>
+                            <a href="#">Untersetzer</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <a href="">Dünger</a>
+                        <div class="dropdown-content">
+                            <a href="#">Eckige Töpfe</a>
+                            <a href="#">Runde Töpfe</a>
+                            <a href="#">Untersetzer</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <a href="">Erde & Substrate</a>
+                        <div class="dropdown-content">
+                            <a href="#">Eckige Töpfe</a>
+                            <a href="#">Runde Töpfe</a>
+                            <a href="#">Untersetzer</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <a href="list.html">Töpfe & Behälter</a>
+                        <div class="dropdown-content">
+                            <a href="#">Eckige Töpfe</a>
+                            <a href="#">Runde Töpfe</a>
+                            <a href="#">Untersetzer</a>
+                            <a href="#">Pflanzschalen</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <a href="">Bewässerung</a>
+                        <div class="dropdown-content">
+                            <a href="#">Eckige Töpfe</a>
+                            <a href="#">Runde Töpfe</a>
+                            <a href="#">Untersetzer</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <a href="">Pflanzen & Gärtnern</a>
+                        <div class="dropdown-content">
+                            <a href="#">Eckige Töpfe</a>
+                            <a href="#">Runde Töpfe</a>
+                            <a href="#">Untersetzer</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <a href="">Lüftung & Klimaanlage</a>
+                        <div class="dropdown-content">
+                            <a href="#">Eckige Töpfe</a>
+                            <a href="#">Runde Töpfe</a>
+                            <a href="#">Untersetzer</a>
+                        </div>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="product">
+            <a >
+                <img src="./img/list3.png" alt="">
+            </a>
+                
+            <a >
+                <p style="font-weight: bold;">
+                    PLANT
+                </p>
+
+                <p style="font-size: 2.5vw; font-weight: bold;">
+                    Square cultivation pots 0.27 to 2 litres
+                </p>
+
+                <p >
+                    Lorem Ipsum is simply dummy text of the printing and typesetting 
+                    industry. Lorem Ipsum has been the industry's standard dummy 
+                    text ever since the
+                </p>
+
+                <div class="price">
+                    <b>$ 125.00</b>
+                    <br/>
+                    <del>$ 250.00</del>
+                    <br/>
+                    <button><img src="./img/icon5.png" alt=""> Add to cart</button>
+                </div>
+
+                <div class="soluong">
+                    <button class="minus-btn" onClick="handleMinus()">-</button>
+                    <input type="text" name="amount" id="amount" value="1">
+                    <button class="plus-btn" onClick="handlePlus()">+</button>
+                </div>
+
+            </a>
+        </div>
+
+        <div class="box2">
+            <a >
+                <p>DISCRIPTION</p>
+                <ul>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                    type and scrambled i
+                </ul>
+            </a>
+            <br/>
+            <a>
+                <p>ABOUT</p>
+                <ul>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                    type and scrambled i
+                </ul>
+            </a>
+        </div>
+
+        <div class="rating-summary">
+            <div class="rating-overview">
+                <img src="./img/list3.png" alt="Product image" />
+                <div class="rating">
+                    <div class="stars">★★★★★</div>
+                    <p>5.0 <span>(388)</span></p>
+                </div>
+            </div>
+            <button class="write-review">Write reviews</button>
+        </div>
+
+        <div class="rating-distribution">
+            <div class="rating-bar">
+                <span>1★</span>
+                <div class="bar">
+                    <div class="fill" style="width: 90%"></div>
+                </div>
+                <span>(388)</span>
+            </div>
+
+            <div class="rating-bar">
+                <span>2★</span>
+                <div class="bar">
+                    <div class="fill" style="width: 10%"></div>
+                </div>
+                <span>(30)</span>
+            </div>
+
+            <div class="rating-bar">
+                <span>3★</span>
+                <div class="bar">
+                    <div class="fill" style="width: 5%"></div>
+                </div>
+                <span>(20)</span>
+            </div>
+
+            <div class="rating-bar">
+                <span>4★</span>
+                <div class="bar">
+                    <div class="fill" style="width: 2%"></div>
+                </div>
+                <span>(10)</span>
+            </div>
+            
+            <div class="rating-bar">
+                <span>5★</span>
+                <div class="bar">
+                    <div class="fill" style="width: 1%"></div>
+                </div>
+                <span>(5)</span>
+            </div>
+        </div>
+
+        <div class="box3">
+            <a style="margin-left: 800px;">
+                <p>Aman gupta</p>
+                <ul>I've been using this cleanser for about five or six months now and my acne 
+                    is almost completely gone. I really struggled for years with my skin and tried 
+                    everything possible but this is the only thing that managed to clear up my 
+                    skin. 100% recommend and will continue to use is for sure.
+                </ul>
+            </a>
+        </div>
+
+        <div class="box6">
+            <a style="margin-left: 340px;">
+                <p>Aman gupta</p>
+                <ul>I've been using this cleanser for about five or six months now and my acne 
+                    is almost completely gone. I really struggled for years with my skin and tried 
+                    everything possible but this is the only thing that managed to clear up my 
+                    skin. 100% recommend and will continue to use is for sure.
+                </ul>
+            </a>
+
+            <a style="margin-left: 100px;">
+                <p>Aman gupta</p>
+                <ul>I've been using this cleanser for about five or six months now and my acne 
+                    is almost completely gone. I really struggled for years with my skin and tried 
+                    everything possible but this is the only thing that managed to clear up my 
+                    skin. 100% recommend and will continue to use is for sure.
+                </ul>
+            </a>
+        </div>
+
+        <div class="box4">
+            <div class="box8">
+                <a >
+                    <h1> Etwas abonnieren <br/> _Unser Newsletter </h1>
+                </a>
+            </div>
+            <a style="margin-left: 300px;">
+                <ul>Get weekly update about our product on your email, no spam guaranteed we promise ✌️</ul>
+            </a>
+            <div class="mail">
+                <img src="./img/icon3.png" alt="">
+            </div>
+            <a style="margin-left: 100px;">
+                <input type="text" placeholder="youremail123@gmail.com" style="height: 60px; width: 520px;">
+            </a>
+            <a href="" 
+            style="
+            height: 50px; 
+            width: 150px; 
+            background-color: gray; 
+            color: white; 
+            margin-left: 84px;
+            margin-top: 80px;">
+            
+            <p>ABONNIEREN</p></a>
+        </div>
+
+        <div class="box5">
+            <a style=" width: 280px; margin-top: 70px;">
+                <ul style="font-size: 0.9vw;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua
+                </ul>
+
+                <ul style="margin-top: 50px;">
+                    <img src="./img/facebook.png" alt="">
+                    <img src="./img/twitter.png" alt="" style="margin-left: 20px;">
+                    <img src="./img/linkedin.png" alt="" style="margin-left: 20px;">
+                </ul>
+            </a>
+
+            <a>
+                <p>Um</p>
+                <ul>Kontaktiere uns</ul><br/>
+                <ul>Über uns</ul><br/>
+                <ul>Karriere</ul><br/>
+                <ul>Unternehmensinformationen </ul>
+            </a>
+
+            <a>
+                <p>Hilfe</p>
+                <ul>Unsere Produzenten</ul><br/>
+                <ul>Zahlung</ul><br/>
+                <ul>Versand</ul><br/>
+                <ul>Stornierung & Rückgabe</ul><br/>
+                <ul>Verstoß melden</ul>
+            </a>
+
+            <a>
+                <p>politik</p>
+                <ul>Rücknahmegarantie</ul><br/>
+                <ul>Nutzungsbedingungen</ul><br/>
+                <ul>Sicherheit</ul><br/>
+                <ul>Privatsphäre</ul><br/>
+                <ul>Seitenverzeichnis</ul>
+            </a>
+        </div>
+
+    <div class="box7">
+        <a style="margin-left: 140px;">
+            <p> 2023 hood.de , Inc.</p>
+        </a>
+        
+        <a style="margin-left: 280px;">
+            <img src="./img/icons_payment 1.png" alt="">
+        </a>
+
+        <a style="margin-left: 380px;">
+            <p>Scroll to top</p>
+        </a>
+    </div>
+    </div>
+
+    <script>
+        let amountElement = document.getElementById('amount');
+        let amount = amountElement.value;
+        let render = (amount) => {
+            amountElement.value = amount
+        }
+        let handlePlus = () => {
+            amount++
+            render(amount);
+        }
+
+        let handleMinus = () => {
+            if(amount > 1)
+                amount --;
+            render(amount)
+        }
+
+    </script>
+</body>
+</html>
